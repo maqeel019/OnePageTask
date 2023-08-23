@@ -1,0 +1,182 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    color: #060606;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgba(192, 192, 192, 0.185);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > div{
+    display: flex;
+}
+.logo > div p{
+
+   margin-top: 8px;
+   font-size: 12px;
+   margin-right: 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.brand p{
+    display: grid;
+   margin-top: 8px;
+   
+}
+.brand p>span{
+    margin-top: -5px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 65vw;
+    font-size: 18px;
+
+}
+.header .menu a{
+text-decoration: none;
+color: #060606;
+margin-left: 25px;
+}
+.header .menu i:hover{
+    color: rgb(229, 170, 86);
+    }
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+.container {
+    width: 60%;
+}
+.container p:last-child{
+    width: 50px;
+}
+.container div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container div p:first-child {
+    color:rgb(229,170,86);
+    border: 2px solid rgb(229,170,86);;
+    padding: 8px;
+    border-radius: 50%;
+}
+.container div p:nth-child(2){
+    color:rgb(36, 160, 192);
+    border: 2px solid rgb(36, 160, 192);;
+    padding: 8px;
+    border-radius: 10px;
+}
+.container div p:nth-child(3){
+    color:rgb(229,170,86);;
+    
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    height: 40vh;
+}
+.left-icons {
+    display: flex;
+    align-items: center;
+}
+.left-icons i {
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(229,170,86);;
+    color: rgb(229,170,86);;
+}
+.left-icons i:nth-child(3){
+    margin-right: 30px;
+}
+.footerMenu {
+    display: flex;
+    flex-direction: row; /* Align items vertically */
+}
+
+.footer .menu {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.footer .menu p {
+    color: rgb(229,170,86);;
+    margin: 0; /* Remove default margin */
+}
+
+.footer .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0; /* Add padding to anchor tags */
+}
+.footer .menu > div{
+    display: flex;
+}
+.footer .menu > div i{
+    color: rgb(229, 170, 86);
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(229,170,86);;
+}
+
+.menu a:hover,
+.menu a:active {
+    color: rgb(229, 170, 86);
+}
+i:hover{
+    cursor: pointer;
+}
